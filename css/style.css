@@ -1,0 +1,97 @@
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(../assets/Poppins-Regular.ttf);
+  }
+  
+  body{
+    background-color: darkgoldenrod;
+  }
+  
+  *{
+    font-family: PoppinsRegular;
+  }
+  
+  .sort-link, .color {
+    color: cornsilk;
+  }
+  
+  .table {
+    border: 2px solid #ddd;
+  }
+  
+  .table thead th, .table tbody td {
+    border: 1px solid #ddd;
+  }
+  
+  .table thead th {
+    background-color: #555;
+    color: white;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+/* Apply hover effect to all rows */
+.table tbody tr:hover {
+    background-color: darkred;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination li a {
+    display: block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .pagination li.active a {
+    background-color: #666;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .color {
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .form-control {
+    width: 100px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+
+
+  /* styles for my egg boy */
+  #logo {
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 120px;
+    top: 0;
+    right: 0;
+    width: 200px;
+    z-index: 999;
+  }
